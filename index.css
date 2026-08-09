@@ -1,0 +1,75 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+
+    /* Background Image */
+    background-image: url("https://unblast.com/wp-content/uploads/2021/01/Space-Background-Images-1536x1024.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+/* Heading */
+h1 {
+    color: white;
+    text-shadow: 2px 2px 8px black;
+    margin: 10px 0;
+}
+
+/* Age */
+#age {
+    font-size: 60px;
+    color: yellow;
+}
+
+/* Button */
+#incremment-btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #007BFF;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+#incremment-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+#save_btn:hover {
+    background-color: #076333;
+    transform: scale(1.05);
+}
+#save_btn {
+    margin-top: 20px;
+    padding: 12px 25px;
+    font-size: 18px;
+    border: none;
+    border-radius: 8px;
+    background-color: #0e794d;
+    color: white;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+p {
+    color: #0a7ddb;
+    text-shadow: 2px 2px 8px black;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size:20px;
+}
